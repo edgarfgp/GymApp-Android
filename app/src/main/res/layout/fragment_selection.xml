@@ -1,0 +1,86 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.sitecdesarro.gymapp.ui.SelectionFragment">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardBike"
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            app:cardCornerRadius="8dp"
+            android:elevation="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="67dp"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            app:cardBackgroundColor="@color/colorPrimary"
+
+            >
+            <RelativeLayout
+                android:id="@+id/rel1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimary"
+
+
+                >
+                <ImageView
+                    android:id="@+id/imagCardB"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bike1"
+                    android:layout_alignParentTop="true"
+                    android:elevation="8dp"
+                    android:layout_alignParentStart="true"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardFunctional"
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            app:cardCornerRadius="8dp"
+            android:elevation="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="90dp"
+            app:layout_constraintTop_toBottomOf="@+id/cardBike"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:cardBackgroundColor="@color/colorPrimary"
+            android:layout_marginBottom="90dp"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_constraintBottom_creator="1">
+
+            <RelativeLayout
+                android:id="@+id/rel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_margin="20dp">
+                <ImageView
+                    android:id="@+id/imagCardF"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/ic_weightlifting"
+                    android:elevation="8dp"
+                    />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">GymApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_day_fragment">Aqui va el dia</string>
+    <string name="hello_hour_fragment">Aqui va la hora</string>
+    <string name="hello_detail_fragment">Aqui va el detalle</string>
+    <string name="hello_selectFunctional_fragment">Aqui va el funcional</string>
+    <string name="menuAbout">Acerca de </string>
+    <string name="menuContact">Contacto</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menuReservation">Mis Reservas</string>
+    <string name="menuLogOut">Desconectarse</string>
+    <string name="signup">Regístrate!</string>
+    <string name="new_user">New user?</string>
+    <string name="login">Acceder</string>
+    <string name="forgot_password">Has olvidado tu clave de acceso?</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="nombre">Nombre</string>
+
+    <string name="sign_in">Sign In!</string>
+    <string name="sign_up">Sign Up!</string>
+    <string name="email">Email</string>
+    <string name="reset_password">Reset password !</string>
+    <string name="send_email">Send email</string>
+    <string name="selection">Selection</string>
+    <string name="loading">Loading</string>
+    <string name="auth_failed">Autentificacion fallida</string>
+    <string name="title_activity_reservation">ReservationActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="acerca"><![CDATA[
+                        <p><b>Créditos</b><hr/><i></i>
+                            Esta aplicaición ha sido desarrollada por:<br>
+                            -Edgar Fabian Gonzalez Peña<br>
+                            -Gabriel Hitar Guerrero<br>
+                        </p>]]></string>
+</resources>

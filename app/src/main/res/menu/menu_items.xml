@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/itemProfile"
+            android:checkable="true"
+            android:visible="false"
+            android:icon="@drawable/account_circle"
+            android:title="Perfíl"
+            />
+
+        <item
+            android:id="@+id/itemAbout"
+            android:checkable="true"
+
+            android:icon="@drawable/information"
+            android:title="@string/menuAbout"/>
+        <item
+            android:id="@+id/itemContact"
+            android:checkable="true"
+            android:icon="@drawable/contact_mail"
+            android:title="@string/menuContact"/>
+        <item
+            android:id="@+id/itemReservation"
+            android:checkable="true"
+            android:visible="false"
+            android:icon="@drawable/bike1"
+            android:title="@string/menuReservation"
+            />
+
+        <item
+            android:id="@+id/itemLogOut"
+            android:checkable="true"
+            android:visible="false"
+            android:icon="@drawable/logout"
+            android:title="@string/menuLogOut"
+            />
+
+    </group>
+
+
+</menu>

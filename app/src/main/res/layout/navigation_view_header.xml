@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="260dp"
+     android:id="@+id/constProfile"
+     tools:layout_editor_absoluteY="25dp"
+     tools:layout_editor_absoluteX="0dp"
+    android:background="@color/colorPrimary">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:layout_height="118dp"
+        android:src="@drawable/profile_user"
+        android:id="@+id/imgUserNavigate"
+        android:scaleType="centerCrop"
+        android:clickable="true"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="71dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+
+    <TextView
+        android:id="@+id/txtNameNav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="bottom"
+        android:textColor="#212121"
+        android:textSize="14sp"
+        tools:layout_conversion_absoluteHeight="20dp"
+        tools:layout_conversion_absoluteWidth="124dp"
+        tools:layout_conversion_absoluteX="15dp"
+        tools:layout_conversion_absoluteY="511dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/txtEmailNav"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtEmailNav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="bottom"
+        android:textColor="#212121"
+        android:textSize="14sp"
+        tools:layout_conversion_absoluteX="15dp"
+        tools:layout_conversion_absoluteY="531dp"
+        tools:layout_conversion_absoluteWidth="189dp"
+        tools:layout_conversion_absoluteHeight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="25dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"/>
+
+
+</android.support.constraint.ConstraintLayout>

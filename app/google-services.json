@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "51383323846",
+    "firebase_url": "https://pruebaproye-2561a.firebaseio.com",
+    "project_id": "pruebaproye-2561a",
+    "storage_bucket": "pruebaproye-2561a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51383323846:android:f227de8b999c5389",
+        "android_client_info": {
+          "package_name": "com.sitecdesarro.gymapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51383323846-tk044q382ccmdvgtmpsaqr9o7320s77q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sitecdesarro.gymapp",
+            "certificate_hash": "74a040f77e4ce16f49d10208768739560ae833fa"
+          }
+        },
+        {
+          "client_id": "51383323846-ud1vvlfs5luaio0au1nhpdvlresg8r56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLiNznP20FX18UOTCWxGjYQRcHc6eUI2g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51383323846-ud1vvlfs5luaio0au1nhpdvlresg8r56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

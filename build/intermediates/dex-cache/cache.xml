@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gabri\.android\build-cache\7ee37bb0b0cc6eb11a3949708d5416b455ab994f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8748e15968514ff1708deb3bb7f0c17623e50bbb">
+        <dex dex="C:\Users\Gabri\Desktop\estasi\GymApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ddd22eb8a3e245d2dbb30113af06c100a35c87cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gabri\.android\build-cache\c6fb2dc5871bff9b7e499f072fd0471a44b556be\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6b8ad09b76c4ffaedf443ca54bc2418760870689">
+        <dex dex="C:\Users\Gabri\Desktop\estasi\GymApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_90809e8b6b56e5e8369552de45b63cf6f8640675\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gabri\Desktop\estasi\GymApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\Gabri\Desktop\estasi\GymApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ddad86e75706b910333c41f016aafd9e010bd547\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gabri\Desktop\estasi\GymApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5c67e235a623aa78fc7db5cd0064ad24f1f57daa">
+        <dex dex="C:\Users\Gabri\Desktop\estasi\GymApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bc6296abca2ff538dabe7641aacb004ffa211a2f\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.sitecdesarro.gymapp">
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".ui.SplashActivity"
+            android:theme="@style/SplashTheme">
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.AppInfo"
+            android:theme="@style/WelcomeScreenTheme"/>
+        <activity android:name=".ui.SelectBikeActivity"
+                 >
+        </activity>
+        <activity android:name=".ui.ContactActivity"
+                  >
+        </activity>
+        <activity android:name=".ui.AboutActivity">
+        </activity>
+        <activity android:name=".ui.LogOutActivity">
+        </activity>
+        <activity android:name=".ui.BikeActivity"
+                  >
+        </activity>
+        <activity android:name=".ui.FunctionalActivity">
+        </activity>
+        <activity android:name=".ui.ProfileActivity">
+        </activity>
+        <activity
+            android:name=".ui.ReservationActivity">
+        </activity>
+        <service
+            android:name=".util.TokenService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".util.FCMMessageReceiverService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
